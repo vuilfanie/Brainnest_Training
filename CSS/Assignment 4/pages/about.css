@@ -1,0 +1,48 @@
+#info {
+    text-align: center;
+    min-height: calc(100vh - 35rem)
+}
+
+.about__container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0rem;
+}
+
+.about__description {
+    text-align: center;
+    width: 80%;
+    margin: 5rem;
+ }
+
+ .about__container figure {
+    width: 80%;
+    height: auto;
+ }
+
+ .about__container figure img{
+    width: 100%;
+    height: auto;
+ }
+
+ h1 {
+    font-size: 5rem;
+    margin: 2rem;
+ }
+
+p {
+   font-size: 3rem;   
+}
+
+@media screen and (max-width: 424px) {
+    .about__container img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    .about__description {
+        text-align: center;
+    }
+}

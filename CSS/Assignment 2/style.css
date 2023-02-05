@@ -1,0 +1,19 @@
+div {
+    background-color: black;
+}
+
+h1 {
+    color: aqua;
+}
+
+h2 {
+    color: rgb(230, 23, 23);
+}
+
+h3 {
+    color: #FFFF;
+}
+
+h4 {
+    color: hsl(60, 100%, 50%)
+}
